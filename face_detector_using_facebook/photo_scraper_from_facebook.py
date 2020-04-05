@@ -1,10 +1,10 @@
 import http.cookiejar
 import urllib.request
-import requests
 import bs4
-import time
 import xlrd
+import time
 import xlwt
+import requests
 from xlutils.copy import copy
 wb=xlrd.open_workbook('photos.xlsx')
 sheet=wb.sheet_by_index(0)
@@ -27,8 +27,8 @@ req= urllib.request.Request(authentication_url,data)
 resp=urllib.request.urlopen(req)
 contents=resp.read()
 
-name=input("Enter the Name of the Person")
-fb_id=input("Enter The Fb id")
+name=input("Enter the Name of the Person you want to check")
+fb_id=input("Enter The Fb id of person")
 
 #url="https://mbasic.facebook.com/"+fb_id+"/photos"
 url="https://mbasic.facebook.com/"+fb_id
