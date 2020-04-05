@@ -15,7 +15,7 @@ for i in range(r):
     else:
         face_encoding=face_recognition.face_encodings(image)[0]
         known_face_encodings.append(face_encoding)
-print("Processing Completed : Smile PLease:)")
+print("Processing Completed : Smile PLease :)")
 print("press q to stop camera")
 video_capture = cv2.VideoCapture(0)
 # Initialize some variables
