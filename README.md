@@ -10,11 +10,11 @@ Face Detector Using Facebook
 
 *  Our Assumption is that there will be atleast one photo of the user in first six images of the user in fb profile.
 
-This Project Contains Two Python Programs to do two different actions:
+This Project Contains Two different Python Programs to do two different actions:
 
 #  photo_scraper_from_facebook.py (To Download Images from Facebook).
 
-* It needs name of the user,fb_id of the user as input and saves the first 6 images in his/her fb profile the images file.
+* It needs name of the user and fb_id of the user as input and saves the first 6 images in his/her facebook profile the images file.
 side by side it adds the Details of the Image along with the name of the user to "photos.xlsx".
 
 * It uses "cookiejar" module to save the login details to cookies.
@@ -22,7 +22,7 @@ side by side it adds the Details of the Image along with the name of the user to
 
 #  face_detector.py(To Detect the face from live camera).
 
-* It processes the images stored in images folder using the data present in "photos.xlsx" .Then detects the image using open-cv and face_recognition modules.
+* It processes the images stored in images folder using the data present in "photos.xlsx" .Then detects the image using open-cv and face_recognition modules present in Python.
 * It uses the "xlrd" module to read the data from excel sheet.
 
 #  photos.xlsx:
