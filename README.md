@@ -1,3 +1,7 @@
+# Registraion Numbers
+* Siva Saai Ravipati, 11702930, Roll no:35
+* Sadanala Naga Venkat, 11705142, Roll no:36
+
 # int247-machine-learning-project-2020-kem031-venkat_36
 int247-machine-learning-project-2020-kem031-venkat_36 created by GitHub Classroom
 
