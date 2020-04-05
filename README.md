@@ -3,6 +3,8 @@ int247-machine-learning-project-2020-kem031-venkat_36 created by GitHub Classroo
 
 Face Detector Using Facebook
 
+*  Our Assumption is that there will be atleast on photo of the user in first six images of the user.
+
 This Project Contains Two Python Programs to do two different actions:
 
 #  photo_scraper_from_facebook.py (To Download Images from Facebook).
