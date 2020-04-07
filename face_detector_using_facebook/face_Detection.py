@@ -4,7 +4,7 @@ import cv2
 wb=xlrd.open_workbook('photos.xlsx')
 sheet=wb.sheet_by_index(0)
 r=sheet.nrows
-print("Wait We are Processing Images")
+print("Please Wait We are Processing Images")
 known_face_encodings=[]
 known_face_names=[]
 for i in range(r):
