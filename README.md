@@ -1,4 +1,4 @@
-# Registraion Numbers
+# Contributers
 * Siva Saai Ravipati, 11702930, Roll no:35
 * Sadanala Naga Venkat, 11705142, Roll no:36
 * Lakkireddy Upendranath, 11710784, Roll no:22
