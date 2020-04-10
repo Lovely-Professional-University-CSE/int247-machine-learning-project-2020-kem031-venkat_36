@@ -9,7 +9,7 @@ def FaceDetection():
     known_face_encodings=[]
     known_face_names=[]
     for i in range(r):
-        print("Hi"+str(i))
+        print("Processed "+str(i)+" image from "+str(r)+" images")
         known_face_names.append(sheet.cell_value(i,0))
         image=face_recognition.load_image_file("images/"+sheet.cell_value(i,2))
         if face_recognition.face_encodings(image)==[]:
