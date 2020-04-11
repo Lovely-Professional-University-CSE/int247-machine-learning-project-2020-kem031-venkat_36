@@ -1,7 +1,7 @@
 from tkinter import *
-from tkinter import messagebox
 import math
 from tkinter import simpledialog
+from tkinter import messagebox
 class FaceDetectionSystem(object):
     def face_detector(self):
         from face_Detection import FaceDetection
