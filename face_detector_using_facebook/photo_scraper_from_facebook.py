@@ -1,4 +1,4 @@
-def PhotoScraper():
+def PhotoScraper(NAME,FB_ID):
     import http.cookiejar
     import urllib.request
     import bs4
@@ -28,8 +28,8 @@ def PhotoScraper():
     resp=urllib.request.urlopen(req)
     contents=resp.read()
 
-    name=input("Enter the Name of the Person you want to check")
-    fb_id=input("Enter The Fb id of person")
+    name=NAME#input("Enter the Name of the Person you want to check")
+    fb_id=FB_ID#input("Enter The Fb id of person")
 
     #url="https://mbasic.facebook.com/"+fb_id+"/photos"
     url="https://mbasic.facebook.com/"+fb_id
