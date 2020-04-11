@@ -1,7 +1,7 @@
 def FaceDetection():
     import face_recognition
+    import xlrs
     import cv2
-    import xlrd
     wb=xlrd.open_workbook('photos.xlsx')
     sheet=wb.sheet_by_index(0)
     r=sheet.nrows
