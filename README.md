@@ -3,7 +3,7 @@
 * Sadanala Naga Venkat, 11705142, Roll no:36
 * Lakkireddy Upendranath, 11710784, Roll no:22
 
-# int247-machine-learning-project-2020-kem031-venkat_36
+# Face Detector Using Facebook
 int247-machine-learning-project-2020-kem031-venkat_36 created by GitHub Classroom
 
 Face Detector Using Facebook
@@ -11,6 +11,8 @@ Face Detector Using Facebook
 *  Our Assumption is that there will be atleast one photo of the user in first six images of the user in fb profile.
 
 This Project Contains Two different Python Programs to do two different actions:
+
+for complete documentation you can got to the link:https://sites.google.com/view/ml-foundation-project/home?authuser=0
 
 #  photo_scraper_from_facebook.py (To Download Images from Facebook).
 
